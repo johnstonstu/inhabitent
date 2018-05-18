@@ -14,6 +14,7 @@ themes/*
 !themes/inhabitent/
 # Ignore packages #
 themes/inhabitent/node_modules/
+package.lock.json
 
 # Ignore OS files #
 .DS_Store
