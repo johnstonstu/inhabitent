@@ -240,14 +240,22 @@ textarea {
   line-height: 1.5; }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   clear: both; }
 
 /* Copy */
 p {
   margin-bottom: 1.5rem; }
 
-dfn, cite, em, i {
+dfn,
+cite,
+em,
+i {
   font-style: italic; }
 
 blockquote {
@@ -267,21 +275,29 @@ pre {
   overflow: auto;
   padding: 1.6rem; }
 
-code, kbd, tt, var {
+code,
+kbd,
+tt,
+var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem; }
 
-abbr, acronym {
+abbr,
+acronym {
   border-bottom: 1px dotted #666;
   cursor: help; }
 
-mark, ins {
+mark,
+ins {
   background: #fff9c0;
   text-decoration: none; }
 
 big {
   font-size: 125%; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -666,3 +682,38 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 354px;
+  background-image: url(../../assets/images/dark-wood.png);
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .site-footer h3 {
+    color: #d99054;
+    font-size: 1.2rem; }
+  .site-footer ul {
+    list-style: none; }
+  .site-footer .contact-info,
+  .site-footer .hours {
+    display: inline-block;
+    margin-left: 10vw; }
+    .site-footer .contact-info ul,
+    .site-footer .hours ul {
+      padding: 0;
+      margin-left: 0; }
+
+.footer-logo {
+  display: inline-block; }
+
+.copyright {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0; }

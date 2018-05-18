@@ -1,0 +1,36 @@
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 354px;
+  background-image: url(../../assets/images/dark-wood.png);
+  color: white;
+  justify-content: space-between;
+  h3 {
+    color: #d99054;
+    font-size: 1.2rem;
+  }
+  ul {
+    list-style: none;
+  }
+  .contact-info,
+  .hours {
+    display: inline-block;
+    margin-left: 10vw;
+    ul {
+      padding: 0;
+      margin-left: 0;
+    }
+  }
+}
+
+.footer-logo {
+  display: inline-block;
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
