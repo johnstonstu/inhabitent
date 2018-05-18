@@ -79,7 +79,14 @@ ins {
 big {
   font-size: 125%;
 }
+body {
+  font-size: 16px;
+  line-height: 1.75;
+}
 
 .uppercase {
   text-transform: uppercase;
+}
+.bold {
+  font-weight: 900;
 }

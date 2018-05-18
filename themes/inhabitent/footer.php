@@ -22,14 +22,14 @@
 					<div class="hours ">
 						<h3 class="uppercase">buisness hours</h3>
 						<ul>
-							<li>Monday-Friday: 9am to 5pm</li>
-							<li>Saturday: 10am to 2pm</li>
-							<li>Sunday: Closed</li>
+							<li><span class="bold">Monday-Friday:</span> 9am to 5pm</li>
+							<li><span class="bold">Saturday:</span> 10am to 2pm</li>
+							<li><span class="bold">Sunday:</span> Closed</li>
 						</ul>
 					</div>
 				</div><!-- .site-info -->
 					<div class="footer-logo">
-						<img src="../assets/images/inhabitent-logo-text.svg" alt="inhabitant logo">
+						<img src="/Applications/MAMP/htdocs/inhabitent/wp-content/themes/inhabitent/assets/images/inhabitent-logo-text.svg" alt="inhabitant logo">
 					</div>
 					<div class="copyright">
 						<p class="uppercase">copyright &copy; 2018 inhabitent</p>
