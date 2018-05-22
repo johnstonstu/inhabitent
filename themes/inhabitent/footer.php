@@ -14,9 +14,9 @@
 					<div class="contact-info upper">
 						<h3 class="uppercase">contact info</h3>
 						<ul>
-							<li>info@inhabitent.com</li>
+							<li><i class="fas fa-envelope"></i> info@inhabitent.com</li>
 							<li>778-456-7891</li>
-							<li>f t g+</li>
+							<li><i class="fab fa-facebook"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-google-plus-square"></i></li>
 						</ul>
 					</div>
 					<div class="hours ">
@@ -29,7 +29,7 @@
 					</div>
 				</div><!-- .site-info -->
 					<div class="footer-logo">
-						<img src="/Applications/MAMP/htdocs/inhabitent/wp-content/themes/inhabitent/assets/images/inhabitent-logo-text.svg" alt="inhabitant logo">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/inhabitent-logo-text.svg" alt="inhabitant logo">
 					</div>
 					<div class="copyright">
 						<p class="uppercase">copyright &copy; 2018 inhabitent</p>
