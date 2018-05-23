@@ -1,0 +1,23 @@
+.about-title {
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Novecento Sans Web, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    // color: #fff;
+  }
+}
+
+.about-content {
+  margin: 3rem auto;
+  max-width: 800px;
+  h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 1.5rem;
+    font-family: Novecento Sans Web, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}

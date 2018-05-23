@@ -13,14 +13,9 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php if ( has_post_thumbnail() ) : ?>
-		<?php endif; ?>
 
-		
-	</header><!-- .entry-header -->
 
-	<div class="entry-content ">
+	<div class="entry-content single-product">
         <div class="product-image">
             <?php the_post_thumbnail( 'large' ); ?>
         </div>

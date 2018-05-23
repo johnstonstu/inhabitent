@@ -1,13 +1,14 @@
-.entry-content {
+.single-product {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   .product-image {
     margin-left: 100px;
     height: 358px;
     width: 538px;
-    // float: left;
   }
   .content-wrapper {
-    width: 48%;
-    // float: right;
+    width: 537px;
     .product-title {
       h1 {
         color: #e58d48;
@@ -15,6 +16,14 @@
         font-family: Novecento Sans Web, sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase;
+      }
+      .product-price {
+        font-family: Novecento Sans Web, sans-serif;
+        font-size: 28.8px;
+        font-size: 1.8rem;
+        margin-top: 0;
+        text-transform: uppercase;
+        color: red;
       }
     }
   }
