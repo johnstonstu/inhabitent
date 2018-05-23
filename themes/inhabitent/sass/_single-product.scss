@@ -1,0 +1,21 @@
+.entry-content {
+  .product-image {
+    margin-left: 100px;
+    height: 358px;
+    width: 538px;
+    // float: left;
+  }
+  .content-wrapper {
+    width: 48%;
+    // float: right;
+    .product-title {
+      h1 {
+        color: #e58d48;
+        clear: both;
+        font-family: Novecento Sans Web, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

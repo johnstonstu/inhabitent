@@ -5,13 +5,16 @@
 !themes/
 !uploads/
 !README.md
+
 # Ignore everything in "plugins" except certain plugins. #
 plugins/*
 !plugins/inhabitent-functionality/
 !plugins/business-hours-widget/
+
 # Ignore everything in "themes" except the active theme. #
 themes/*
 !themes/inhabitent/
+
 # Ignore packages #
 themes/inhabitent/node_modules/
 themes/inhabitent/package-lock.json
@@ -25,6 +28,7 @@ themes/inhabitent/package-lock.json
 ehthumbs.db
 *[Tt]humbs.db
 *.Trashes
+
 # Ignore logs and databases #
 *.log
 *.sql

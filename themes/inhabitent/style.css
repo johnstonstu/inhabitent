@@ -922,3 +922,17 @@ object {
       .adventures .adventure-grid .white-btn:hover {
         background-color: #008e85;
         border: none; }
+
+.entry-content .product-image {
+  margin-left: 100px;
+  height: 358px;
+  width: 538px; }
+
+.entry-content .content-wrapper {
+  width: 48%; }
+  .entry-content .content-wrapper .product-title h1 {
+    color: #e58d48;
+    clear: both;
+    font-family: Novecento Sans Web, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase; }

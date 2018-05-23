@@ -9,6 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+            <!-- home hero -->
             <section class="home-hero">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/images/inhabitent-logo-full.svg" alt="inhabitent logo" class="logo">
             </section>
@@ -46,6 +47,7 @@ get_header(); ?>
                     </div>
                 </div>
             </section>
+            <!-- journal enteries -->
             <section class="latest-enteries">
                     <h2 class="uppercase">Inhabitent Journal</h2>
                     <!-- <ul>
@@ -54,6 +56,8 @@ get_header(); ?>
                         <li></li>
                     </ul> -->
             </section>
+
+            <!-- adventures -->
             <h2 class="uppercase adventure-title">Latest Adventures</h2>
             <section class="adventures">
                 <div class="adventure-grid">
