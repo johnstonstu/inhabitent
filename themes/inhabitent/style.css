@@ -1032,12 +1032,23 @@ object {
       text-transform: uppercase;
       color: red; }
 
-.about-title h1 {
-  text-align: center;
-  font-size: 3rem;
-  font-family: Novecento Sans Web, sans-serif;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+.about-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .about-title h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Novecento Sans Web, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff; }
 
 .about-content {
   margin: 3rem auto;
@@ -1054,7 +1065,6 @@ object {
   background-color: rgba(255, 255, 255, 0.85);
   border-bottom: 1px solid #e1e1e1;
   padding: 0.5rem 0;
-  position: fixed;
   -webkit-transition: top 0.5s linear;
   transition: top 0.5s linear;
   width: 100%;
@@ -1081,3 +1091,40 @@ object {
         color: #248a83; }
       .site-header .container .main-navigation li {
         padding-left: 1.5rem; }
+
+.page-header {
+  text-align: center;
+  font-family: Novecento Sans Web, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.25;
+  border-bottom: 1px dashed #c8c8c8;
+  margin-bottom: 3rem;
+  text-align: center; }
+  .page-header a {
+    text-decoration: none;
+    color: #248a83; }
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem; }
+  .shop-grid .shop-grid-item {
+    border: 1px solid #e1e1e1; }
+  .shop-grid .shop-grid-info {
+    background: #fff;
+    display: inline;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Merriweather Web, serif;
+    letter-spacing: 0;
+    line-height: 1.75;
+    padding-right: 0.25rem;
+    text-transform: none; }
+    .shop-grid .shop-grid-info a {
+      text-decoration: none;
+      color: black; }
