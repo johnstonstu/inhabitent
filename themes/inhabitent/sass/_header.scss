@@ -1,0 +1,33 @@
+.site-header {
+  background-color: hsla(0, 0%, 100%, 0.85);
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.5rem 0;
+  position: fixed;
+  transition: top 0.5s linear;
+  width: 100%;
+  z-index: 3;
+
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .site-branding {
+      img {
+        height: 33px;
+        width: 50px;
+      }
+    }
+    .main-navigation {
+      width: auto;
+      float: none;
+      a {
+        font-family: Novecento Sans Web, sans-serif;
+        text-transform: uppercase;
+        color: #248a83;
+      }
+      li {
+        padding-left: 1.5rem;
+      }
+    }
+  }
+}

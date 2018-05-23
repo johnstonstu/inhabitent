@@ -15,50 +15,68 @@ get_header(); ?>
             </section>
             <!-- shop stuff -->
             <section class="product-info container">
-                <h2>Shop Stuff</h2>
+                <h2 class="home-title">Shop Stuff</h2>
                 <div class="product-type-blocks">
+
+                <?php $terms = get_terms( array (
+                    'taxonomy' => 'product_type',
+                    'hide-empty' => 0,
+                ));
+
+                if (! empty( $terms) && ! is_wp_error( $terms )) : ?>
+                    
+                    <?php foreach($terms as $term) : ?>
+
                     <div class="product-type-block-wrapper">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/do.svg" alt="do stuff">
-                        <p>Get back to nature with all the tools and toys you need to enjoy the great outdoors.</p>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/<?php echo $term ->slug;?>.svg" alt="do stuff">
+                        <p><?php echo $term ->description; ?></p>
                         <p>
-                            <a href="#" class="btn">Do Stuff</a>
+                            <a href="<?php echo get_term_link($term) ?>" class="btn"><?php echo $term ->name; ?> Stuff</a>
                         </p>
                     </div>
-                    <div class="product-type-block-wrapper">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/eat.svg" alt="do stuff">
-                        <p>Nothing beats food cooked over a fire. We have all you need for good camping eats.</p>
-                        <p>
-                            <a href="#" class="btn">Eat Stuff</a>
-                        </p>
-                    </div>
-                    <div class="product-type-block-wrapper">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/sleep.svg" alt="do stuff">
-                        <p>Get a good night's rest in the wild in a home away from home that travels well.</p>
-                        <p>
-                            <a href="#" class="btn">Sleep Stuff</a>
-                        </p>
-                    </div>
-                    <div class="product-type-block-wrapper">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/wear.svg" alt="do stuff">
-                        <p>From flannel shirts to toques, look the part while roughing it in the great outdoors.</p>
-                        <p>
-                            <a href="#" class="btn">Wear Stuff</a>
-                        </p>
-                    </div>
+
+                <?php endforeach; ?>
+
+                <?php  endif; ?>
                 </div>
             </section>
-            <!-- journal enteries -->
+
+
             <section class="latest-enteries">
-                    <h2 class="uppercase">Inhabitent Journal</h2>
-                    <!-- <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul> -->
-            </section>
+                <div class="container">
+                     <h2 class="home-title">Inhabitent Journal</h2>
+                     <ul>
+            <?php
+                $args = array( 'post_type' => 'post', 'order' => 'ASC', 'posts_per_page' => 3 );
+                $product_posts = get_posts( $args ); // returns an array of posts
+            ?>
+            <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+                <?php
+                // the_post_thumbnail('large');
+                // the_content();
+                ?>
+                            <li>
+                                <div class="thumbnail-wrapper">
+                                    <?php the_post_thumbnail('large'); ?>
+                                </div>
+                                <div class="post-info-wrapper">
+                                    <span class="entry-meta">
+                                        <?php red_starter_posted_on(); ?> / <?php comments_number( '0 comments', '0 comments', '% comments'); ?>
+                                        <h2 class="entry-title">
+                                            <a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a>
+                                        </h2>
+                                    </span>
+                                </div>
+                                <a href="<?php echo the_permalink(); ?>" class="black-btn">Read Entry</a>
+                            </li>
+            <?php endforeach; wp_reset_postdata(); ?>                        
+                        </ul>
+                </div>
+            </section> 
+
 
             <!-- adventures -->
-            <h2 class="uppercase adventure-title">Latest Adventures</h2>
+            <h2 class="home-title">Latest Adventures</h2>
             <section class="adventures">
                 <div class="adventure-grid">
                     <div class="grid-item-1">
@@ -96,26 +114,6 @@ get_header(); ?>
                 </div>
             </section>
 
-		<?php if ( have_posts() ) : ?>
-
-			<?php if ( is_home() && ! is_front_page() ) : ?>
-
-			<?php endif; ?>
-
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'template-parts/content' ); ?>
-
-			<?php endwhile; ?>
-
-			<?php the_posts_navigation(); ?>
-
-		<?php else : ?>
-
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
