@@ -883,7 +883,7 @@ object {
           font-size: 0.75rem; }
           .latest-enteries ul li .post-info-wrapper .entry-meta .entry-title {
             font-size: 1.3rem;
-            margin-bottom: 3.75rem;
+            margin-bottom: 2.75rem;
             font-family: Novecento Sans Web, sans-serif;
             text-transform: uppercase; }
             .latest-enteries ul li .post-info-wrapper .entry-meta .entry-title a {
@@ -1162,17 +1162,73 @@ object {
   display: -ms-flexbox;
   display: flex; }
   .side-by-side .container .primary {
-    border-right: 5px solid #e1e1e1;
+    border-right: 2px solid #e1e1e1;
     padding-right: 5%;
     width: 73%;
     height: 100%;
     min-height: 100vh;
-    background-color: lightblue;
     display: inline-block; }
+    .side-by-side .container .primary .entry-header {
+      line-height: 0;
+      position: relative; }
+      .side-by-side .container .primary .entry-header img {
+        height: auto;
+        max-width: 100%;
+        width: 760.59px; }
+      .side-by-side .container .primary .entry-header .entry-tag {
+        background-color: #248a83;
+        color: #fff;
+        font-size: 33.6px;
+        font-size: 2.1rem;
+        left: 0;
+        padding: 0.75rem 1.5rem;
+        position: absolute;
+        margin-top: 2.25rem;
+        height: 107px;
+        width: 570px;
+        top: 0;
+        line-height: 1.25; }
+        .side-by-side .container .primary .entry-header .entry-tag a {
+          text-decoration: none;
+          color: white;
+          font-family: Novecento Sans Web, sans-serif;
+          letter-spacing: 2px;
+          text-transform: uppercase; }
+          .side-by-side .container .primary .entry-header .entry-tag a:hover {
+            color: #f2e5d0; }
+      .side-by-side .container .primary .entry-header .entry-meta {
+        background-color: #248a83;
+        bottom: 0;
+        color: #fff;
+        display: inline-block;
+        font-family: Novecento Sans Web, sans-serif;
+        padding: 1.00005rem 1.5rem;
+        position: absolute;
+        right: 0;
+        text-transform: uppercase; }
+    .side-by-side .container .primary .entry-content .black-btn {
+      background-color: transparent;
+      border: 1px solid #000;
+      color: #000;
+      cursor: pointer;
+      font-family: Novecento Sans Web, sans-serif;
+      font-size: 14.4px;
+      font-size: 0.9rem;
+      line-height: 1;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      text-transform: uppercase; }
   .side-by-side .container .secondary {
     padding-left: 5%;
     width: 27%;
     height: 100%;
     min-height: 100vh;
-    background-color: coral;
     display: inline-block; }
+    .side-by-side .container .secondary ul {
+      margin: 0;
+      padding: 0; }
+      .side-by-side .container .secondary ul li {
+        list-style: none; }
+        .side-by-side .container .secondary ul li a {
+          text-decoration: none;
+          color: #008e85; }
