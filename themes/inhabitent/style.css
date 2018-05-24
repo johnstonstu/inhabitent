@@ -1175,7 +1175,7 @@ object {
         height: auto;
         max-width: 100%;
         width: 760.59px; }
-      .side-by-side .container .primary .entry-header .entry-tag {
+      .side-by-side .container .primary .entry-header .entry-title {
         background-color: #248a83;
         color: #fff;
         font-size: 33.6px;
@@ -1188,13 +1188,13 @@ object {
         width: 570px;
         top: 0;
         line-height: 1.25; }
-        .side-by-side .container .primary .entry-header .entry-tag a {
+        .side-by-side .container .primary .entry-header .entry-title a {
           text-decoration: none;
           color: white;
           font-family: Novecento Sans Web, sans-serif;
           letter-spacing: 2px;
           text-transform: uppercase; }
-          .side-by-side .container .primary .entry-header .entry-tag a:hover {
+          .side-by-side .container .primary .entry-header .entry-title a:hover {
             color: #f2e5d0; }
       .side-by-side .container .primary .entry-header .entry-meta {
         background-color: #248a83;
@@ -1218,6 +1218,14 @@ object {
       padding: 0.75rem 1.5rem;
       text-decoration: none;
       text-transform: uppercase; }
+    .side-by-side .container .primary .error-404 .widget ul {
+      margin: 0;
+      padding: 0; }
+      .side-by-side .container .primary .error-404 .widget ul li {
+        list-style: none; }
+        .side-by-side .container .primary .error-404 .widget ul li a {
+          text-decoration: none;
+          color: #008e85; }
   .side-by-side .container .secondary {
     padding-left: 5%;
     width: 27%;

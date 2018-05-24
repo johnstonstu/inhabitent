@@ -29,7 +29,7 @@ get_header(); ?>
 					
 					<header class="entry-header">
 						<?php the_post_thumbnail( 'large' );?>
-						<?php the_title( sprintf( '<h2 class="entry-tag"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+						<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 						<div class="entry-meta">
 							<span class="posted-on">
 								<?php comments_number( '0 comments', '0 comments', '% comments'); ?>

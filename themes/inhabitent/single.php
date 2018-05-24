@@ -8,13 +8,13 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-		<?php while ( have_posts() ) : the_post(); ?>
+		<main id="main" class="site-main side-by-side" role="main">
+			<div class="container">
+				<div class="primary">
+							<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			<?php the_post_navigation(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
@@ -24,9 +24,12 @@ get_header(); ?>
 			?>
 
 		<?php endwhile; // End of the loop. ?>
+				</div>
+				<div class="secondary">
+					<?php get_sidebar(); ?>
+				</div>
+			</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
