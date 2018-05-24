@@ -789,6 +789,7 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 700px;
   height: 100vh; }
   .home-hero .logo {
     margin-left: 41vw;
@@ -812,6 +813,8 @@ object {
           -ms-flex: 0 1 23.5%;
               flex: 0 1 23.5%;
       max-width: 23.5%; }
+      .product-info .product-type-blocks .product-type-block-wrapper:hover {
+        border-color: #e58d48; }
       .product-info .product-type-blocks .product-type-block-wrapper img {
         height: 70px;
         width: 70px; }
@@ -828,6 +831,8 @@ object {
         padding: 0.75rem 1.5rem;
         text-decoration: none;
         text-transform: uppercase; }
+        .product-info .product-type-blocks .product-type-block-wrapper .btn:hover {
+          background-color: #00655e; }
 
 .latest-enteries {
   text-align: center; }
@@ -1004,6 +1009,29 @@ object {
         background-color: #008e85;
         border: none; }
 
+.more-adventures {
+  display: block;
+  margin-top: 2.25rem;
+  font-size: 1.2rem;
+  margin-left: 13px;
+  margin-bottom: 67px; }
+  .more-adventures .btn {
+    font-size: 1.2rem !important;
+    background: #248a83;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans Web, sans-serif;
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    line-height: 1;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .more-adventures .btn:hover {
+      background: #00655e; }
+
 .single-product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1128,3 +1156,23 @@ object {
     .shop-grid .shop-grid-info a {
       text-decoration: none;
       color: black; }
+
+.side-by-side .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .side-by-side .container .primary {
+    border-right: 5px solid #e1e1e1;
+    padding-right: 5%;
+    width: 73%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: lightblue;
+    display: inline-block; }
+  .side-by-side .container .secondary {
+    padding-left: 5%;
+    width: 27%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: coral;
+    display: inline-block; }

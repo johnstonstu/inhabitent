@@ -113,7 +113,11 @@ get_header(); ?>
                     </div>
                 </div>
             </section>
-
+            <div class="container">
+                <p class="more-adventures">
+                    <a href="#" class="btn">More Adventures</a>
+                </p>
+            </div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -1,0 +1,22 @@
+.side-by-side {
+  .container {
+    display: flex;
+    .primary {
+      border-right: 5px solid #e1e1e1;
+      padding-right: 5%;
+      width: 73%;
+      height: 100%;
+      min-height: 100vh;
+      background-color: lightblue;
+      display: inline-block;
+    }
+    .secondary {
+      padding-left: 5%;
+      width: 27%;
+      height: 100%;
+      min-height: 100vh;
+      background-color: coral;
+      display: inline-block;
+    }
+  }
+}

@@ -10,10 +10,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 700px;
   height: 100vh;
-  //   display: flex;
-  //   justify-content: center;
-  //chaneg
   .logo {
     margin-left: 41vw;
     margin-top: 25vh;
@@ -32,6 +30,9 @@
       padding: 0.75rem;
       flex: 0 1 23.5%;
       max-width: 23.5%;
+      &:hover {
+        border-color: #e58d48;
+      }
       img {
         height: 70px;
         width: 70px;
@@ -49,13 +50,15 @@
         padding: 0.75rem 1.5rem;
         text-decoration: none;
         text-transform: uppercase;
+        &:hover {
+          background-color: #00655e;
+        }
       }
     }
   }
 }
 
 .latest-enteries {
-  //   display: flex;
   text-align: center;
   ul {
     text-align: left;
@@ -248,6 +251,32 @@
         background-color: #008e85;
         border: none;
       }
+    }
+  }
+}
+
+.more-adventures {
+  display: block;
+  margin-top: 2.25rem;
+  font-size: 1.2rem;
+  margin-left: 13px;
+  margin-bottom: 67px;
+  .btn {
+    font-size: 1.2rem !important; //sorry
+    background: #248a83;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: Novecento Sans Web, sans-serif;
+    font-size: 14.4px;
+    font-size: 0.9rem;
+    line-height: 1;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      background: #00655e;
     }
   }
 }
