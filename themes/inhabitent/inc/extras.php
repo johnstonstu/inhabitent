@@ -146,3 +146,28 @@ add_filter('login_headertitle', 'inhabitent_login_title');
 function inhabitent_login_title(){
 	return 'inhabitent';
 }
+
+add_filter('get_the_archive_title', 'inhabitent_archive_title');
+
+function inhabitent_archive_title($title){
+	if(is_post_type_archive( 'product' )){
+		$title = 'Shop Stuff';
+	}elseif(is_tax('product_type')){
+		$title = single_term_title('', 'false' );
+	}
+	return $title;
+}
+
+add_action('pre_get_posts', 'inhabitent_modify_queries');
+
+function inhabitent_modify_queries($query){
+	if(is_post_type_archive( array('product'))
+	 || $query->is_tax('product_type')
+	 && !is_admin()
+	 && $query->is_main_query())
+	 {
+		$query->set('orderby', 'title');
+		$query->set('order', 'ASC');
+		$query->set('posts_per_page', 16);
+	}
+}

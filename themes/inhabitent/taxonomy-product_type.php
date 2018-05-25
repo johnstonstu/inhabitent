@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<header class="page-header">
             <div class="container">
-                    <h1 class="page-tlte">Shop Stuff</h1>
+                    <h1 class="page-tlte"><?php the_archive_title()?></h1>
 
                 <?php $terms = get_terms( array (
                     'taxonomy' => 'product_type',
@@ -24,12 +24,13 @@ get_header(); ?>
                 if (! empty( $terms) && ! is_wp_error( $terms )) : ?>
                     
                     <?php foreach($terms as $term) : ?>
-                            <a href="<?php echo get_term_link($term)?>" class="btn"><?php echo $term ->name; ?></a>
+                            <a href="<?php echo get_term_link($term) ?>" class="btn"><?php echo $term ->name; ?></a>
                 <?php endforeach; ?>
 
                 <?php  endif; ?>
 
 			</header><!-- .page-header -->
+
 
 
         <div class="shop-grid">

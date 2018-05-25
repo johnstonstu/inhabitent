@@ -82,6 +82,27 @@
           }
         }
       }
+      .social-buttons {
+        margin: 1.5rem 0;
+        .black-btn {
+          background-color: transparent;
+          border: 1px solid #000;
+          color: #000;
+          cursor: pointer;
+          font-family: Novecento Sans Web, sans-serif;
+          font-size: 14.4px;
+          font-size: 0.9rem;
+          line-height: 1;
+          padding: 0.75rem 1.5rem;
+          text-decoration: none;
+          text-transform: uppercase;
+          &:hover {
+            background: #008e85;
+            color: white;
+            border: none;
+          }
+        }
+      }
     }
     .secondary {
       padding-left: 5%;
