@@ -52,8 +52,6 @@ get_header(); ?>
             ?>
             <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
                 <?php
-                // the_post_thumbnail('large');
-                // the_content();
                 ?>
                             <li>
                                 <div class="thumbnail-wrapper">

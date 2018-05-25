@@ -3,15 +3,37 @@
   font-family: Novecento Sans Web, sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   line-height: 1.25;
   border-bottom: 1px dashed #c8c8c8;
   margin-bottom: 3rem;
   text-align: center;
+  padding-bottom: 3rem;
+  margin-top: 40px;
   a {
     text-decoration: none;
     color: #248a83;
+    margin: 0 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1120px;
+  }
+  .taxonomy-description {
+    margin: 2rem auto 3rem;
+    max-width: 800px;
+    line-height: 1;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #404040;
+    font-family: Merriweather Web, serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.75;
+    margin-bottom: 0;
   }
 }
 
@@ -19,24 +41,46 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
   .shop-grid-item {
     border: 1px solid #e1e1e1;
-  }
-  .shop-grid-info {
-    background: #fff;
-    display: inline;
-    font-size: 16px;
-    font-size: 1rem;
-    font-weight: 400;
-    font-family: Merriweather Web, serif;
-    letter-spacing: 0;
-    line-height: 1.75;
-    padding-right: 0.25rem;
-    text-transform: none;
-    a {
-      text-decoration: none;
-      color: black;
+    .thumbnail-wrapper {
+      background-color: #e1e1e1;
+      height: 250px;
+      overflow: hidden;
+      position: relative;
+      .wp-post-image {
+        left: 50%;
+        max-height: 250px;
+        max-width: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -52%);
+        width: auto;
+      }
+    }
+    .shop-grid-info {
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      .entry-title {
+        margin: 0;
+        background: #fff;
+        display: inline;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: Merriweather Web, serif;
+        letter-spacing: 0;
+        line-height: 1.75;
+        padding-right: 0.25rem;
+        text-transform: none;
+      }
+      .dots {
+        flex: 1;
+        border-bottom: 1px dotted black;
+        transform: translatey(4.2px);
+      }
     }
   }
 }
