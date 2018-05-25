@@ -1,15 +1,23 @@
 (function($) {
-  //hide and show search field
-  $('.search-submit').click(function() {
-    event.preventDefault();
-    $('.search-field').toggleClass('search-focus');
-  });
+  var $searchField = $('.search-field');
 
-  // on enter search
-  $('.search-submit').keypress(function(e) {
-    if (e.which == 13) {
-      $('search-submit').submit();
-      return false;
-    }
+  //hide and show search field
+  $('.header-search .search-submit').click(function() {
+    event.preventDefault();
+    $searchField.toggleClass('search-focus');
+    $searchField.focus();
+    $searchField.blur(function() {
+      $searchField.toggleClass('search-focus');
+      $searchField.val('');
+    });
+    // on enter search
+    $(document).keypress(function(key) {
+      if ($searchField.val().length > 0) {
+        if (key.which == 13) {
+          $('.search-form').submit();
+          return false;
+        }
+      }
+    });
   });
 })(jQuery);

@@ -1236,25 +1236,30 @@ object {
         -webkit-transform: translatey(4.2px);
                 transform: translatey(4.2px); }
 
-.side-by-side .container {
+.blog .container,
+.single .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .side-by-side .container .primary {
+  .blog .container .primary,
+  .single .container .primary {
     border-right: 2px solid #e1e1e1;
     padding-right: 5%;
     width: 73%;
     height: 100%;
     min-height: 100vh;
     display: inline-block; }
-    .side-by-side .container .primary .entry-header {
+    .blog .container .primary .entry-header,
+    .single .container .primary .entry-header {
       line-height: 0;
       position: relative; }
-      .side-by-side .container .primary .entry-header img {
+      .blog .container .primary .entry-header img,
+      .single .container .primary .entry-header img {
         height: auto;
         max-width: 100%;
         width: 760.59px; }
-      .side-by-side .container .primary .entry-header .entry-title {
+      .blog .container .primary .entry-header .entry-title,
+      .single .container .primary .entry-header .entry-title {
         background-color: #248a83;
         color: #fff;
         font-size: 33.6px;
@@ -1266,16 +1271,21 @@ object {
         height: 107px;
         width: 570px;
         top: 0;
-        line-height: 1.25; }
-        .side-by-side .container .primary .entry-header .entry-title a {
+        line-height: 1.25;
+        text-decoration: none;
+        color: white;
+        font-family: Novecento Sans Web, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase; }
+        .blog .container .primary .entry-header .entry-title a,
+        .single .container .primary .entry-header .entry-title a {
           text-decoration: none;
-          color: white;
-          font-family: Novecento Sans Web, sans-serif;
-          letter-spacing: 2px;
-          text-transform: uppercase; }
-          .side-by-side .container .primary .entry-header .entry-title a:hover {
+          color: white; }
+          .blog .container .primary .entry-header .entry-title a:hover,
+          .single .container .primary .entry-header .entry-title a:hover {
             color: #f2e5d0; }
-      .side-by-side .container .primary .entry-header .entry-meta {
+      .blog .container .primary .entry-header .entry-meta,
+      .single .container .primary .entry-header .entry-meta {
         background-color: #248a83;
         bottom: 0;
         color: #fff;
@@ -1285,7 +1295,8 @@ object {
         position: absolute;
         right: 0;
         text-transform: uppercase; }
-    .side-by-side .container .primary .entry-content .black-btn {
+    .blog .container .primary .entry-content .black-btn,
+    .single .container .primary .entry-content .black-btn {
       background-color: transparent;
       border: 1px solid #000;
       color: #000;
@@ -1297,17 +1308,22 @@ object {
       padding: 0.75rem 1.5rem;
       text-decoration: none;
       text-transform: uppercase; }
-    .side-by-side .container .primary .error-404 .widget ul {
+    .blog .container .primary .error-404 .widget ul,
+    .single .container .primary .error-404 .widget ul {
       margin: 0;
       padding: 0; }
-      .side-by-side .container .primary .error-404 .widget ul li {
+      .blog .container .primary .error-404 .widget ul li,
+      .single .container .primary .error-404 .widget ul li {
         list-style: none; }
-        .side-by-side .container .primary .error-404 .widget ul li a {
+        .blog .container .primary .error-404 .widget ul li a,
+        .single .container .primary .error-404 .widget ul li a {
           text-decoration: none;
           color: #008e85; }
-    .side-by-side .container .primary .social-buttons {
+    .blog .container .primary .social-buttons,
+    .single .container .primary .social-buttons {
       margin: 1.5rem 0; }
-      .side-by-side .container .primary .social-buttons .black-btn {
+      .blog .container .primary .social-buttons .black-btn,
+      .single .container .primary .social-buttons .black-btn {
         background-color: transparent;
         border: 1px solid #000;
         color: #000;
@@ -1319,10 +1335,68 @@ object {
         padding: 0.75rem 1.5rem;
         text-decoration: none;
         text-transform: uppercase; }
-        .side-by-side .container .primary .social-buttons .black-btn:hover {
+        .blog .container .primary .social-buttons .black-btn:hover,
+        .single .container .primary .social-buttons .black-btn:hover {
           background: #008e85;
           color: white;
           border: none; }
+  .blog .container .secondary,
+  .single .container .secondary {
+    padding-left: 5%;
+    width: 27%;
+    height: 100%;
+    min-height: 100vh;
+    display: inline-block; }
+    .blog .container .secondary ul,
+    .single .container .secondary ul {
+      margin: 0;
+      padding: 0; }
+      .blog .container .secondary ul li,
+      .single .container .secondary ul li {
+        list-style: none; }
+        .blog .container .secondary ul li a,
+        .single .container .secondary ul li a {
+          text-decoration: none;
+          color: #008e85; }
+
+.side-by-side .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .side-by-side .container .primary {
+    border-right: 2px solid #e1e1e1;
+    padding-right: 5%;
+    width: 73%;
+    height: 100%;
+    min-height: 100vh;
+    display: inline-block; }
+    .side-by-side .container .primary .entry-title a {
+      text-decoration: none;
+      color: #008e85;
+      font-family: Novecento Sans Web, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 2.1rem;
+      margin-bottom: 1.5rem; }
+      .side-by-side .container .primary .entry-title a:hover {
+        color: #2f1339; }
+    .side-by-side .container .primary .black-btn {
+      text-decoration: none;
+      background-color: transparent;
+      border: 1px solid #000;
+      color: #000;
+      cursor: pointer;
+      font-family: Novecento Sans Web, sans-serif;
+      font-size: 14.4px;
+      font-size: 0.9rem;
+      line-height: 1;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      text-transform: uppercase; }
+      .side-by-side .container .primary .black-btn:hover {
+        background: #008e85;
+        color: white;
+        border: none; }
   .side-by-side .container .secondary {
     padding-left: 5%;
     width: 27%;

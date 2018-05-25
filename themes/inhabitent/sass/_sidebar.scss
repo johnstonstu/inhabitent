@@ -1,4 +1,5 @@
-.side-by-side {
+.blog,
+.single {
   .container {
     display: flex;
     .primary {
@@ -29,12 +30,14 @@
           width: 570px;
           top: 0;
           line-height: 1.25;
+          text-decoration: none;
+          color: white;
+          font-family: Novecento Sans Web, sans-serif;
+          letter-spacing: 2px;
+          text-transform: uppercase;
           a {
             text-decoration: none;
             color: white;
-            font-family: Novecento Sans Web, sans-serif;
-            letter-spacing: 2px;
-            text-transform: uppercase;
             &:hover {
               color: #f2e5d0;
             }
@@ -101,6 +104,71 @@
             color: white;
             border: none;
           }
+        }
+      }
+    }
+    .secondary {
+      padding-left: 5%;
+      width: 27%;
+      height: 100%;
+      min-height: 100vh;
+      display: inline-block;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          a {
+            text-decoration: none;
+            color: #008e85;
+          }
+        }
+      }
+    }
+  }
+}
+
+.side-by-side {
+  .container {
+    display: flex;
+    .primary {
+      border-right: 2px solid #e1e1e1;
+      padding-right: 5%;
+      width: 73%;
+      height: 100%;
+      min-height: 100vh;
+      display: inline-block;
+      .entry-title {
+        a {
+          text-decoration: none;
+          color: #008e85;
+          font-family: Novecento Sans Web, sans-serif;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-size: 2.1rem;
+          margin-bottom: 1.5rem;
+          &:hover {
+            color: #2f1339;
+          }
+        }
+      }
+      .black-btn {
+        text-decoration: none;
+        background-color: transparent;
+        border: 1px solid #000;
+        color: #000;
+        cursor: pointer;
+        font-family: Novecento Sans Web, sans-serif;
+        font-size: 14.4px;
+        font-size: 0.9rem;
+        line-height: 1;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          background: #008e85;
+          color: white;
+          border: none;
         }
       }
     }
