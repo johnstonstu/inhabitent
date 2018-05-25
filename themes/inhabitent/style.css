@@ -1243,6 +1243,7 @@ object {
   display: flex; }
   .blog .container .primary,
   .single .container .primary {
+    padding-top: 3rem;
     border-right: 2px solid #e1e1e1;
     padding-right: 5%;
     width: 73%;
@@ -1295,6 +1296,10 @@ object {
         position: absolute;
         right: 0;
         text-transform: uppercase; }
+        .blog .container .primary .entry-header .entry-meta a,
+        .single .container .primary .entry-header .entry-meta a {
+          text-decoration: none;
+          color: white; }
     .blog .container .primary .entry-content .black-btn,
     .single .container .primary .entry-content .black-btn {
       background-color: transparent;
@@ -1370,6 +1375,8 @@ object {
     height: 100%;
     min-height: 100vh;
     display: inline-block; }
+    .side-by-side .container .primary .page-header {
+      text-align: left; }
     .side-by-side .container .primary .entry-title a {
       text-decoration: none;
       color: #008e85;
@@ -1411,3 +1418,16 @@ object {
         .side-by-side .container .secondary ul li a {
           text-decoration: none;
           color: #008e85; }
+    .side-by-side .container .secondary .custom-html-widget a {
+      text-decoration: none;
+      color: #008e85; }
+      .side-by-side .container .secondary .custom-html-widget a:hover {
+        color: #2f1339; }
+    .side-by-side .container .secondary h2 {
+      font-size: 1.5rem;
+      color: #2f1339;
+      font-family: Novecento Sans Web, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .side-by-side .container .secondary .day-of-week {
+      font-weight: 700; }
