@@ -1,8 +1,10 @@
 .blog,
-.single {
+.single,
+.error404 {
   .container {
     display: flex;
     .primary {
+      padding-bottom: 4rem;
       padding-top: 3rem;
       border-right: 2px solid #e1e1e1;
       padding-right: 5%;
@@ -61,6 +63,7 @@
         }
       }
       .entry-content {
+        margin-bottom: 2rem;
         .black-btn {
           background-color: transparent;
           border: 1px solid #000;
@@ -89,6 +92,19 @@
             }
           }
         }
+        .search-form {
+          .search-submit {
+            display: none;
+          }
+          .search-field {
+            text-transform: none;
+            padding: 0.3rem;
+            color: #666;
+            background-color: #f4f4f4;
+            border: 1px solid #e1e1e1;
+            border-radius: 0;
+          }
+        }
       }
       .social-buttons {
         margin: 1.5rem 0;
@@ -109,6 +125,17 @@
             color: white;
             border: none;
           }
+        }
+      }
+      .entry-footer {
+        font-family: Novecento Sans Web, sans-serif;
+        text-transform: uppercase;
+        a {
+          text-decoration: none;
+          color: #008e85;
+        }
+        .cat-links {
+          margin-right: 1.5rem;
         }
       }
     }
@@ -177,6 +204,7 @@
           background: #008e85;
           color: white;
           border: none;
+          box-shadow: none;
         }
       }
     }
@@ -215,6 +243,102 @@
       }
       .day-of-week {
         font-weight: 700;
+      }
+    }
+  }
+}
+
+.page {
+  .container {
+    h1 {
+      color: #404040;
+      line-height: 1.75;
+      font-family: Novecento Sans Web, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 2em;
+      margin-top: 2rem;
+    }
+    h2 {
+      font-size: 2.1rem;
+      margin-bottom: 1.5rem;
+      color: #2f1339;
+      font-family: Novecento Sans Web, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .wpcf7-form {
+      margin-bottom: 5rem;
+      text-transform: uppercase;
+      color: #2f1339;
+      display: block;
+      font-family: Novecento Sans Web, sans-serif;
+      font-size: 17.6px;
+      font-size: 1.1rem;
+      margin-bottom: 6rem;
+      input,
+      textarea {
+        background-color: #f4f4f4;
+        border-radius: 0;
+      }
+      .wpcf7-submit {
+        background: #248a83;
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        cursor: pointer;
+        font-family: Novecento Sans Web, sans-serif;
+        font-size: 14.4px;
+        font-size: 0.9rem;
+        line-height: 1;
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.search {
+  .primary {
+    padding-bottom: 4rem;
+    .entry-meta {
+      font-family: Novecento Sans Web, sans-serif;
+      text-transform: uppercase;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+  }
+  .page-header {
+    border-bottom: 1px solid #c8c8c8;
+    padding: 0;
+  }
+  .entry-summary {
+    margin-bottom: 4rem;
+  }
+}
+
+.error404 {
+  .container {
+    padding-top: 0;
+    .primary {
+      padding-top: 0;
+      .page-header {
+        padding: 0;
+        margin: 0;
+        border: none;
+        line-height: 1.25;
+        .page-title {
+          color: #404040;
+        }
+      }
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-family: Novecento Sans Web, sans-serif;
+        letter-spacing: 2px;
+        text-transform: uppercase;
       }
     }
   }

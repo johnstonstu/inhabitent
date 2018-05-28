@@ -29,6 +29,11 @@ get_header(); ?>
             <div class="product-content">
                 <?php the_content(); ?>
             </div>
+            <div class="social-buttons">
+				<button type="button" class="black-btn"><i class="fab fa-facebook"></i> Like</button>
+				<button type="button" class="black-btn"><i class="fab fa-twitter"></i> Tweet</button>
+				<button type="button" class="black-btn"><i class="fab fa-pinterest"></i> Pin</button>
+			</div>
         </div> <!-- content-wrapper -->
 	</div><!-- .entry-content -->
 
