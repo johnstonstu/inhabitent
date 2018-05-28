@@ -7,7 +7,7 @@ Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags:
+Text Domain: Inhabitent
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -1142,6 +1142,8 @@ object {
         font-family: Novecento Sans Web, sans-serif;
         text-transform: uppercase;
         color: #248a83; }
+        .site-header .container .main-navigation a:hover {
+          color: black; }
       .site-header .container .main-navigation li {
         padding-left: 1.5rem; }
       .site-header .container .main-navigation .header-search {
@@ -1173,6 +1175,9 @@ object {
             padding-left: 5px; }
             .site-header .container .main-navigation .header-search .search-form .search-focus:focus {
               outline: none; }
+
+.light-logo {
+  display: none; }
 
 .page-header {
   text-align: center;
@@ -1443,10 +1448,65 @@ object {
     .date .container .primary .logged-in-as {
       display: none; }
     .blog .container .primary .comments-area .comment-form textarea,
+    .blog .container .primary .comments-area .comment-form #author,
+    .blog .container .primary .comments-area .comment-form #email,
+    .blog .container .primary .comments-area .comment-form #url,
     .single .container .primary .comments-area .comment-form textarea,
+    .single .container .primary .comments-area .comment-form #author,
+    .single .container .primary .comments-area .comment-form #email,
+    .single .container .primary .comments-area .comment-form #url,
     .error404 .container .primary .comments-area .comment-form textarea,
-    .date .container .primary .comments-area .comment-form textarea {
-      background: #f4f4f4; }
+    .error404 .container .primary .comments-area .comment-form #author,
+    .error404 .container .primary .comments-area .comment-form #email,
+    .error404 .container .primary .comments-area .comment-form #url,
+    .date .container .primary .comments-area .comment-form textarea,
+    .date .container .primary .comments-area .comment-form #author,
+    .date .container .primary .comments-area .comment-form #email,
+    .date .container .primary .comments-area .comment-form #url {
+      background: #f4f4f4;
+      border-radius: 0; }
+    .blog .container .primary .comments-area .comment-form .comment-form-author,
+    .blog .container .primary .comments-area .comment-form .comment-form-email,
+    .single .container .primary .comments-area .comment-form .comment-form-author,
+    .single .container .primary .comments-area .comment-form .comment-form-email,
+    .error404 .container .primary .comments-area .comment-form .comment-form-author,
+    .error404 .container .primary .comments-area .comment-form .comment-form-email,
+    .date .container .primary .comments-area .comment-form .comment-form-author,
+    .date .container .primary .comments-area .comment-form .comment-form-email {
+      float: left; }
+    .blog .container .primary .comments-area .comment-form .comment-form-url,
+    .single .container .primary .comments-area .comment-form .comment-form-url,
+    .error404 .container .primary .comments-area .comment-form .comment-form-url,
+    .date .container .primary .comments-area .comment-form .comment-form-url {
+      clear: left;
+      width: 100%; }
+      .blog .container .primary .comments-area .comment-form .comment-form-url input,
+      .single .container .primary .comments-area .comment-form .comment-form-url input,
+      .error404 .container .primary .comments-area .comment-form .comment-form-url input,
+      .date .container .primary .comments-area .comment-form .comment-form-url input {
+        width: 100%; }
+    .blog .container .primary .comments-area .comment-form .comment-form-author,
+    .single .container .primary .comments-area .comment-form .comment-form-author,
+    .error404 .container .primary .comments-area .comment-form .comment-form-author,
+    .date .container .primary .comments-area .comment-form .comment-form-author {
+      margin-right: 1%;
+      width: 49%; }
+      .blog .container .primary .comments-area .comment-form .comment-form-author input,
+      .single .container .primary .comments-area .comment-form .comment-form-author input,
+      .error404 .container .primary .comments-area .comment-form .comment-form-author input,
+      .date .container .primary .comments-area .comment-form .comment-form-author input {
+        width: 100%; }
+    .blog .container .primary .comments-area .comment-form .comment-form-email,
+    .single .container .primary .comments-area .comment-form .comment-form-email,
+    .error404 .container .primary .comments-area .comment-form .comment-form-email,
+    .date .container .primary .comments-area .comment-form .comment-form-email {
+      margin-left: 1%;
+      width: 49%; }
+      .blog .container .primary .comments-area .comment-form .comment-form-email input,
+      .single .container .primary .comments-area .comment-form .comment-form-email input,
+      .error404 .container .primary .comments-area .comment-form .comment-form-email input,
+      .date .container .primary .comments-area .comment-form .comment-form-email input {
+        width: 100%; }
     .blog .container .primary .comments-area .comments-title,
     .single .container .primary .comments-area .comments-title,
     .error404 .container .primary .comments-area .comments-title,
@@ -1668,6 +1728,8 @@ object {
   font-size: 17.6px;
   font-size: 1.1rem;
   margin-bottom: 6rem; }
+  .page .container .wpcf7-form .required {
+    color: #d99054; }
   .page .container .wpcf7-form input,
   .page .container .wpcf7-form textarea {
     background-color: #f4f4f4;
@@ -1687,6 +1749,8 @@ object {
     text-transform: uppercase;
     -webkit-box-shadow: none;
             box-shadow: none; }
+    .page .container .wpcf7-form .wpcf7-submit:hover {
+      background: #00655e; }
 
 .search .primary {
   padding-bottom: 4rem; }

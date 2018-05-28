@@ -1,3 +1,5 @@
+// Contains the styling for all pages with a sidebar
+
 .blog,
 .single,
 .error404,
@@ -144,8 +146,37 @@
       }
       .comments-area {
         .comment-form {
-          textarea {
+          textarea,
+          #author,
+          #email,
+          #url {
             background: #f4f4f4;
+            border-radius: 0;
+          }
+          .comment-form-author,
+          .comment-form-email {
+            float: left; //sorry it works
+          }
+          .comment-form-url {
+            clear: left;
+            width: 100%;
+            input {
+              width: 100%;
+            }
+          }
+          .comment-form-author {
+            margin-right: 1%;
+            width: 49%;
+            input {
+              width: 100%;
+            }
+          }
+          .comment-form-email {
+            margin-left: 1%;
+            width: 49%;
+            input {
+              width: 100%;
+            }
           }
         }
         .comments-title {
@@ -354,6 +385,9 @@
       letter-spacing: 2px;
     }
     .wpcf7-form {
+      .required {
+        color: #d99054;
+      }
       margin-bottom: 5rem;
       text-transform: uppercase;
       color: #2f1339;
@@ -381,6 +415,9 @@
         text-decoration: none;
         text-transform: uppercase;
         box-shadow: none;
+        &:hover {
+          background: #00655e;
+        }
       }
     }
   }
