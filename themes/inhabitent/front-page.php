@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package RED_Starter_Theme
+ * @package Inhabitent_Theme
  */
 
 get_header(); ?>
@@ -59,7 +59,7 @@ get_header(); ?>
                                 </div>
                                 <div class="post-info-wrapper">
                                     <span class="entry-meta">
-                                        <?php red_starter_posted_on(); ?> / <?php comments_number( '0 comments', '0 comments', '% comments'); ?>
+                                        <?php Inhabitent_posted_on(); ?> / <?php comments_number( '0 comments', '0 comments', '% comments'); ?>
                                         <h2 class="entry-title">
                                             <a href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a>
                                         </h2>

@@ -1,6 +1,29 @@
-# RED Starter
+# Inhabitent
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+A WordPress theme: Inhabitent
+By: Stuart Johnston
+
+### Technologies used:
+
+* Wordpress (WP)
+* HTML / CSS
+* JS / jQuery
+* PHP / SQL
+
+### Major lessons learned:
+
+* Create custom WP theme
+* Wordpess mySQL database
+* WP 'The Loop'
+* Custom post type / catagory / taxonomy / login page / page templates
+* Edit WP admin dashboard
+
+### Major Obsticles
+
+* Looping through post types / custom taxonomy
+* Linking
+* Deciding what classes to use for styling
+* WP template hierarchy
 
 ## Installation
 
@@ -8,7 +31,7 @@ A WordPress starter theme for RED Academy students, forked from Underscores.
 
 Then add me to your `wp-content` directory.
 
-### 2. Rename the `redstarter-master` directory
+### 2. Rename the `Inhabitent-master` directory
 
 Make sure that the theme directory name is project appropriate!
 

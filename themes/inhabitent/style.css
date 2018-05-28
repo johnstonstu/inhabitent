@@ -12,7 +12,7 @@ Tags:
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-RED Starter Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Inhabitent Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -1442,6 +1442,11 @@ object {
     .error404 .container .primary .logged-in-as,
     .date .container .primary .logged-in-as {
       display: none; }
+    .blog .container .primary .comments-area .comment-form textarea,
+    .single .container .primary .comments-area .comment-form textarea,
+    .error404 .container .primary .comments-area .comment-form textarea,
+    .date .container .primary .comments-area .comment-form textarea {
+      background: #f4f4f4; }
     .blog .container .primary .comments-area .comments-title,
     .single .container .primary .comments-area .comments-title,
     .error404 .container .primary .comments-area .comments-title,

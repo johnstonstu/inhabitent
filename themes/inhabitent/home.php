@@ -2,7 +2,7 @@
 /**
  *  template for journal page (blog index)
  *
- * @package RED_Starter_Theme
+ * @package Inhabitent_Theme
  */
 
 get_header(); ?>
@@ -20,7 +20,7 @@ get_header(); ?>
 					<?php 
 							// the_post_thumbnail( 'large' );
 							// the_title();
-							// red_starter_posted_on(); 
+							// Inhabitent_posted_on(); 
 							// <?php comments_number( '0 comments', '0 comments', '% comments');
 							// the_author();
 							// the_content(); 
@@ -32,7 +32,7 @@ get_header(); ?>
 						<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 						<div class="entry-meta">
 							<span class="posted-on">
-								<?php red_starter_posted_on(); ?> / 
+								<?php Inhabitent_posted_on(); ?> / 
 							</span>
 							<?php comments_number( '0 comments', '0 comments', '% comments'); ?> /
 							<span class="posted-by">
