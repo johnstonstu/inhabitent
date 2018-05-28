@@ -1260,13 +1260,15 @@ object {
 
 .blog .container,
 .single .container,
-.error404 .container {
+.error404 .container,
+.date .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   .blog .container .primary,
   .single .container .primary,
-  .error404 .container .primary {
+  .error404 .container .primary,
+  .date .container .primary {
     padding-bottom: 4rem;
     padding-top: 3rem;
     border-right: 2px solid #e1e1e1;
@@ -1277,18 +1279,21 @@ object {
     display: inline-block; }
     .blog .container .primary .entry-header,
     .single .container .primary .entry-header,
-    .error404 .container .primary .entry-header {
+    .error404 .container .primary .entry-header,
+    .date .container .primary .entry-header {
       line-height: 0;
       position: relative; }
       .blog .container .primary .entry-header img,
       .single .container .primary .entry-header img,
-      .error404 .container .primary .entry-header img {
+      .error404 .container .primary .entry-header img,
+      .date .container .primary .entry-header img {
         height: auto;
         max-width: 100%;
         width: 760.59px; }
       .blog .container .primary .entry-header .entry-title,
       .single .container .primary .entry-header .entry-title,
-      .error404 .container .primary .entry-header .entry-title {
+      .error404 .container .primary .entry-header .entry-title,
+      .date .container .primary .entry-header .entry-title {
         background-color: #248a83;
         color: #fff;
         font-size: 33.6px;
@@ -1308,16 +1313,19 @@ object {
         text-transform: uppercase; }
         .blog .container .primary .entry-header .entry-title a,
         .single .container .primary .entry-header .entry-title a,
-        .error404 .container .primary .entry-header .entry-title a {
+        .error404 .container .primary .entry-header .entry-title a,
+        .date .container .primary .entry-header .entry-title a {
           text-decoration: none;
           color: white; }
           .blog .container .primary .entry-header .entry-title a:hover,
           .single .container .primary .entry-header .entry-title a:hover,
-          .error404 .container .primary .entry-header .entry-title a:hover {
+          .error404 .container .primary .entry-header .entry-title a:hover,
+          .date .container .primary .entry-header .entry-title a:hover {
             color: #f2e5d0; }
       .blog .container .primary .entry-header .entry-meta,
       .single .container .primary .entry-header .entry-meta,
-      .error404 .container .primary .entry-header .entry-meta {
+      .error404 .container .primary .entry-header .entry-meta,
+      .date .container .primary .entry-header .entry-meta {
         background-color: #248a83;
         bottom: 0;
         color: #fff;
@@ -1329,16 +1337,19 @@ object {
         text-transform: uppercase; }
         .blog .container .primary .entry-header .entry-meta a,
         .single .container .primary .entry-header .entry-meta a,
-        .error404 .container .primary .entry-header .entry-meta a {
+        .error404 .container .primary .entry-header .entry-meta a,
+        .date .container .primary .entry-header .entry-meta a {
           text-decoration: none;
           color: white; }
     .blog .container .primary .entry-content,
     .single .container .primary .entry-content,
-    .error404 .container .primary .entry-content {
+    .error404 .container .primary .entry-content,
+    .date .container .primary .entry-content {
       margin-bottom: 2rem; }
       .blog .container .primary .entry-content .black-btn,
       .single .container .primary .entry-content .black-btn,
-      .error404 .container .primary .entry-content .black-btn {
+      .error404 .container .primary .entry-content .black-btn,
+      .date .container .primary .entry-content .black-btn {
         background-color: transparent;
         border: 1px solid #000;
         color: #000;
@@ -1352,25 +1363,30 @@ object {
         text-transform: uppercase; }
     .blog .container .primary .error-404 .widget ul,
     .single .container .primary .error-404 .widget ul,
-    .error404 .container .primary .error-404 .widget ul {
+    .error404 .container .primary .error-404 .widget ul,
+    .date .container .primary .error-404 .widget ul {
       margin: 0;
       padding: 0; }
       .blog .container .primary .error-404 .widget ul li,
       .single .container .primary .error-404 .widget ul li,
-      .error404 .container .primary .error-404 .widget ul li {
+      .error404 .container .primary .error-404 .widget ul li,
+      .date .container .primary .error-404 .widget ul li {
         list-style: none; }
         .blog .container .primary .error-404 .widget ul li a,
         .single .container .primary .error-404 .widget ul li a,
-        .error404 .container .primary .error-404 .widget ul li a {
+        .error404 .container .primary .error-404 .widget ul li a,
+        .date .container .primary .error-404 .widget ul li a {
           text-decoration: none;
           color: #008e85; }
     .blog .container .primary .error-404 .search-form .search-submit,
     .single .container .primary .error-404 .search-form .search-submit,
-    .error404 .container .primary .error-404 .search-form .search-submit {
+    .error404 .container .primary .error-404 .search-form .search-submit,
+    .date .container .primary .error-404 .search-form .search-submit {
       display: none; }
     .blog .container .primary .error-404 .search-form .search-field,
     .single .container .primary .error-404 .search-form .search-field,
-    .error404 .container .primary .error-404 .search-form .search-field {
+    .error404 .container .primary .error-404 .search-form .search-field,
+    .date .container .primary .error-404 .search-form .search-field {
       text-transform: none;
       padding: 0.3rem;
       color: #666;
@@ -1379,11 +1395,13 @@ object {
       border-radius: 0; }
     .blog .container .primary .social-buttons,
     .single .container .primary .social-buttons,
-    .error404 .container .primary .social-buttons {
+    .error404 .container .primary .social-buttons,
+    .date .container .primary .social-buttons {
       margin: 1.5rem 0; }
       .blog .container .primary .social-buttons .black-btn,
       .single .container .primary .social-buttons .black-btn,
-      .error404 .container .primary .social-buttons .black-btn {
+      .error404 .container .primary .social-buttons .black-btn,
+      .date .container .primary .social-buttons .black-btn {
         background-color: transparent;
         border: 1px solid #000;
         color: #000;
@@ -1397,27 +1415,135 @@ object {
         text-transform: uppercase; }
         .blog .container .primary .social-buttons .black-btn:hover,
         .single .container .primary .social-buttons .black-btn:hover,
-        .error404 .container .primary .social-buttons .black-btn:hover {
+        .error404 .container .primary .social-buttons .black-btn:hover,
+        .date .container .primary .social-buttons .black-btn:hover {
           background: #008e85;
           color: white;
           border: none; }
     .blog .container .primary .entry-footer,
     .single .container .primary .entry-footer,
-    .error404 .container .primary .entry-footer {
+    .error404 .container .primary .entry-footer,
+    .date .container .primary .entry-footer {
       font-family: Novecento Sans Web, sans-serif;
       text-transform: uppercase; }
       .blog .container .primary .entry-footer a,
       .single .container .primary .entry-footer a,
-      .error404 .container .primary .entry-footer a {
+      .error404 .container .primary .entry-footer a,
+      .date .container .primary .entry-footer a {
         text-decoration: none;
         color: #008e85; }
       .blog .container .primary .entry-footer .cat-links,
       .single .container .primary .entry-footer .cat-links,
-      .error404 .container .primary .entry-footer .cat-links {
+      .error404 .container .primary .entry-footer .cat-links,
+      .date .container .primary .entry-footer .cat-links {
         margin-right: 1.5rem; }
+    .blog .container .primary .logged-in-as,
+    .single .container .primary .logged-in-as,
+    .error404 .container .primary .logged-in-as,
+    .date .container .primary .logged-in-as {
+      display: none; }
+    .blog .container .primary .comments-area .comments-title,
+    .single .container .primary .comments-area .comments-title,
+    .error404 .container .primary .comments-area .comments-title,
+    .date .container .primary .comments-area .comments-title {
+      color: #2f1339;
+      font-size: 2.1rem;
+      font-family: Novecento Sans Web, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 4rem; }
+    .blog .container .primary .comments-area .comment-list,
+    .single .container .primary .comments-area .comment-list,
+    .error404 .container .primary .comments-area .comment-list,
+    .date .container .primary .comments-area .comment-list {
+      margin-left: 0;
+      padding-left: 0; }
+      .blog .container .primary .comments-area .comment-list .comment-body,
+      .single .container .primary .comments-area .comment-list .comment-body,
+      .error404 .container .primary .comments-area .comment-list .comment-body,
+      .date .container .primary .comments-area .comment-list .comment-body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border-bottom: 1px solid #e1e1e1;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem; }
+        .blog .container .primary .comments-area .comment-list .comment-body .comment-content .comment-author,
+        .single .container .primary .comments-area .comment-list .comment-body .comment-content .comment-author,
+        .error404 .container .primary .comments-area .comment-list .comment-body .comment-content .comment-author,
+        .date .container .primary .comments-area .comment-list .comment-body .comment-content .comment-author {
+          font-style: normal;
+          font-weight: 700; }
+        .blog .container .primary .comments-area .comment-list .comment-body .comment-content time,
+        .single .container .primary .comments-area .comment-list .comment-body .comment-content time,
+        .error404 .container .primary .comments-area .comment-list .comment-body .comment-content time,
+        .date .container .primary .comments-area .comment-list .comment-body .comment-content time {
+          color: gray; }
+        .blog .container .primary .comments-area .comment-list .comment-body .comment-author-avatar,
+        .single .container .primary .comments-area .comment-list .comment-body .comment-author-avatar,
+        .error404 .container .primary .comments-area .comment-list .comment-body .comment-author-avatar,
+        .date .container .primary .comments-area .comment-list .comment-body .comment-author-avatar {
+          border-radius: 50%;
+          height: 64px;
+          margin-right: 1.5rem;
+          overflow: hidden;
+          width: 64px; }
+        .blog .container .primary .comments-area .comment-list .comment-body a,
+        .single .container .primary .comments-area .comment-list .comment-body a,
+        .error404 .container .primary .comments-area .comment-list .comment-body a,
+        .date .container .primary .comments-area .comment-list .comment-body a {
+          text-decoration: none;
+          color: #008e85; }
+    .blog .container .primary .comments-area .comment-reply-title,
+    .single .container .primary .comments-area .comment-reply-title,
+    .error404 .container .primary .comments-area .comment-reply-title,
+    .date .container .primary .comments-area .comment-reply-title {
+      color: #404040;
+      font-size: 1.8rem;
+      line-height: 1.25;
+      margin-top: 1.5rem;
+      clear: both;
+      font-family: Novecento Sans Web, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .blog .container .primary .comments-area label,
+    .single .container .primary .comments-area label,
+    .error404 .container .primary .comments-area label,
+    .date .container .primary .comments-area label {
+      color: #2f1339;
+      display: block;
+      font-family: Novecento Sans Web, sans-serif;
+      font-size: 17.6px;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase; }
+    .blog .container .primary .comments-area .submit,
+    .single .container .primary .comments-area .submit,
+    .error404 .container .primary .comments-area .submit,
+    .date .container .primary .comments-area .submit {
+      background: #248a83;
+      border: none;
+      border-radius: 0;
+      color: #fff;
+      cursor: pointer;
+      font-family: Novecento Sans Web, sans-serif;
+      font-size: 14.4px;
+      font-size: 0.9rem;
+      line-height: 1;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+      .blog .container .primary .comments-area .submit:hover,
+      .single .container .primary .comments-area .submit:hover,
+      .error404 .container .primary .comments-area .submit:hover,
+      .date .container .primary .comments-area .submit:hover {
+        background: #00655e; }
   .blog .container .secondary,
   .single .container .secondary,
-  .error404 .container .secondary {
+  .error404 .container .secondary,
+  .date .container .secondary {
     padding-left: 5%;
     width: 27%;
     height: 100%;
@@ -1425,16 +1551,19 @@ object {
     display: inline-block; }
     .blog .container .secondary ul,
     .single .container .secondary ul,
-    .error404 .container .secondary ul {
+    .error404 .container .secondary ul,
+    .date .container .secondary ul {
       margin: 0;
       padding: 0; }
       .blog .container .secondary ul li,
       .single .container .secondary ul li,
-      .error404 .container .secondary ul li {
+      .error404 .container .secondary ul li,
+      .date .container .secondary ul li {
         list-style: none; }
         .blog .container .secondary ul li a,
         .single .container .secondary ul li a,
-        .error404 .container .secondary ul li a {
+        .error404 .container .secondary ul li a,
+        .date .container .secondary ul li a {
           text-decoration: none;
           color: #008e85; }
 
@@ -1586,3 +1715,16 @@ object {
       font-family: Novecento Sans Web, sans-serif;
       letter-spacing: 2px;
       text-transform: uppercase; }
+
+.date .container .primary {
+  padding-top: 0; }
+  .date .container .primary .page-header {
+    padding: 0;
+    border-bottom: 1px solid #c8c8c8; }
+    .date .container .primary .page-header .page-title {
+      font-family: Novecento Sans Web, sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #404040; }
+  .date .container .primary .entry-content {
+    margin-bottom: 5rem; }
