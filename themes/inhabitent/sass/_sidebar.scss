@@ -66,8 +66,10 @@
         }
       }
       .entry-content {
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         .black-btn {
+          box-shadow: none;
+          border-radius: 0;
           background-color: transparent;
           border: 1px solid #000;
           color: #000;
@@ -112,6 +114,10 @@
       .social-buttons {
         margin: 1.5rem 0;
         .black-btn {
+          box-shadow: none;
+          border-radius: 0;
+          box-shadow: none;
+          border-radius: 0;
           background-color: transparent;
           border: 1px solid #000;
           color: #000;
@@ -365,7 +371,7 @@
   }
 }
 
-.page {
+.page-id-103 {
   .container {
     h1 {
       color: #404040;

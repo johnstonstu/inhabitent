@@ -749,6 +749,8 @@ object {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  .site-footer .site-info {
+    padding-top: 2rem; }
   .site-footer h3 {
     font-family: 'Novecentos', sans-serif;
     color: #d99054;
@@ -764,6 +766,17 @@ object {
     .site-footer .hours ul {
       padding: 0;
       margin-left: 0; }
+      .site-footer .contact-info ul a,
+      .site-footer .hours ul a {
+        text-decoration: none;
+        color: white; }
+      .site-footer .contact-info ul li,
+      .site-footer .hours ul li {
+        margin-bottom: 20px; }
+      .site-footer .contact-info ul .social-fonts i,
+      .site-footer .hours ul .social-fonts i {
+        margin-right: 10px;
+        font-size: 1.3rem; }
 
 .footer-logo {
   display: inline-block;
@@ -772,12 +785,12 @@ object {
   max-width: 275px; }
 
 .copyright {
-  display: block;
+  display: inline-block;
   text-align: center;
   width: 100%;
   margin: 0;
   padding: 0;
-  padding-top: 100px; }
+  padding-top: 2rem; }
 
 .container {
   margin-left: auto;
@@ -1063,6 +1076,9 @@ object {
       margin-top: 0;
       text-transform: uppercase; }
     .single-product .content-wrapper .black-btn {
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      border-radius: 0;
       text-decoration: none;
       background-color: transparent;
       border: 1px solid #000;
@@ -1350,11 +1366,14 @@ object {
     .single .container .primary .entry-content,
     .error404 .container .primary .entry-content,
     .date .container .primary .entry-content {
-      margin-bottom: 2rem; }
+      margin-bottom: 5rem; }
       .blog .container .primary .entry-content .black-btn,
       .single .container .primary .entry-content .black-btn,
       .error404 .container .primary .entry-content .black-btn,
       .date .container .primary .entry-content .black-btn {
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border-radius: 0;
         background-color: transparent;
         border: 1px solid #000;
         color: #000;
@@ -1407,6 +1426,11 @@ object {
       .single .container .primary .social-buttons .black-btn,
       .error404 .container .primary .social-buttons .black-btn,
       .date .container .primary .social-buttons .black-btn {
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border-radius: 0;
+        box-shadow: none;
+        border-radius: 0;
         background-color: transparent;
         border: 1px solid #000;
         color: #000;
@@ -1702,7 +1726,7 @@ object {
     .side-by-side .container .secondary .day-of-week {
       font-weight: 700; }
 
-.page .container h1 {
+.page-id-103 .container h1 {
   color: #404040;
   line-height: 1.75;
   font-family: Novecento Sans Web, sans-serif;
@@ -1711,7 +1735,7 @@ object {
   font-size: 2em;
   margin-top: 2rem; }
 
-.page .container h2 {
+.page-id-103 .container h2 {
   font-size: 2.1rem;
   margin-bottom: 1.5rem;
   color: #2f1339;
@@ -1719,7 +1743,7 @@ object {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
-.page .container .wpcf7-form {
+.page-id-103 .container .wpcf7-form {
   margin-bottom: 5rem;
   text-transform: uppercase;
   color: #2f1339;
@@ -1728,13 +1752,13 @@ object {
   font-size: 17.6px;
   font-size: 1.1rem;
   margin-bottom: 6rem; }
-  .page .container .wpcf7-form .required {
+  .page-id-103 .container .wpcf7-form .required {
     color: #d99054; }
-  .page .container .wpcf7-form input,
-  .page .container .wpcf7-form textarea {
+  .page-id-103 .container .wpcf7-form input,
+  .page-id-103 .container .wpcf7-form textarea {
     background-color: #f4f4f4;
     border-radius: 0; }
-  .page .container .wpcf7-form .wpcf7-submit {
+  .page-id-103 .container .wpcf7-form .wpcf7-submit {
     background: #248a83;
     border: none;
     border-radius: 0;
@@ -1749,7 +1773,7 @@ object {
     text-transform: uppercase;
     -webkit-box-shadow: none;
             box-shadow: none; }
-    .page .container .wpcf7-form .wpcf7-submit:hover {
+    .page-id-103 .container .wpcf7-form .wpcf7-submit:hover {
       background: #00655e; }
 
 .search .primary {

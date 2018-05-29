@@ -31,6 +31,8 @@
       text-transform: uppercase;
     }
     .black-btn {
+      box-shadow: none;
+      border-radius: 0;
       text-decoration: none;
       background-color: transparent;
       border: 1px solid #000;

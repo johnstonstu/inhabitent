@@ -171,3 +171,5 @@ function inhabitent_modify_queries($query){
 		$query->set('posts_per_page', 16);
 	}
 }
+
+ 

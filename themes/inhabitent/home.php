@@ -43,7 +43,7 @@ get_header(); ?>
 					<div class="entry-content">
 						<p><?php the_content() ?></p>
 						<p>
-							<a href="<?php echo esc_url( get_permalink() ) ?>" class="read-more black-btn">Read More</a>
+							<a href="<?php echo esc_url( get_permalink() ) ?>" class="read-more black-btn">Read More <i class="fas fa-arrow-right"></i></a>
 						</p>
 					</div>
 

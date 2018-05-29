@@ -5,6 +5,9 @@
   background-image: url(../../assets/images/dark-wood.png);
   color: white;
   justify-content: space-between;
+  .site-info {
+    padding-top: 2rem;
+  }
   h3 {
     font-family: 'Novecentos', sans-serif;
     color: #d99054;
@@ -21,6 +24,19 @@
     ul {
       padding: 0;
       margin-left: 0;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      li {
+        margin-bottom: 20px;
+      }
+      .social-fonts {
+        i {
+          margin-right: 10px;
+          font-size: 1.3rem;
+        }
+      }
     }
   }
 }
@@ -33,10 +49,10 @@
 }
 
 .copyright {
-  display: block;
+  display: inline-block;
   text-align: center;
   width: 100%;
   margin: 0;
   padding: 0;
-  padding-top: 100px;
+  padding-top: 2rem;
 }
