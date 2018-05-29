@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file.
+ * The main template file. (homepage)
  *
  * @package Inhabitent_Theme
  */
@@ -41,7 +41,7 @@ get_header(); ?>
                 </div>
             </section>
 
-
+            <!-- inhabitant journal -->
             <section class="latest-enteries">
                 <div class="container">
                      <h2 class="home-title">Inhabitent Journal</h2>

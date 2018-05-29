@@ -17,14 +17,6 @@ get_header(); ?>
 					$product_posts = get_posts( $args ); // returns an array of posts
 					?>
 					<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
-					<?php 
-							// the_post_thumbnail( 'large' );
-							// the_title();
-							// Inhabitent_posted_on(); 
-							// <?php comments_number( '0 comments', '0 comments', '% comments');
-							// the_author();
-							// the_content(); 
-					?>
 					
 					
 					<header class="entry-header">
