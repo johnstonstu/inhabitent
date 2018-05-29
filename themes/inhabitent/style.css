@@ -770,6 +770,9 @@ object {
       .site-footer .hours ul a {
         text-decoration: none;
         color: white; }
+        .site-footer .contact-info ul a:hover,
+        .site-footer .hours ul a:hover {
+          text-decoration: underline; }
       .site-footer .contact-info ul li,
       .site-footer .hours ul li {
         margin-bottom: 20px; }
@@ -1118,7 +1121,8 @@ object {
 
 .about-content {
   margin: 3rem auto;
-  max-width: 800px; }
+  max-width: 800px;
+  margin-bottom: 5rem; }
   .about-content h2 {
     text-align: center;
     font-size: 2.1rem;
