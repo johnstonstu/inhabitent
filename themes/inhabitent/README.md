@@ -3,7 +3,7 @@
 A WordPress theme: Inhabitent
 By: Stuart Johnston
 
-![alt text]
+![alt text](https://github.com/johnstonstu/inhabitent/blob/master/themes/inhabitent/assets/images/Screen%20Shot%202018-06-06%20at%2010.35.18%20AM.png)
 
 ### Technologies used:
 
