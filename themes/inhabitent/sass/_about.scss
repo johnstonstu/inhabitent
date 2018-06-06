@@ -5,10 +5,10 @@
   h1 {
     text-align: center;
     font-size: 3rem;
-    font-family: Novecento Sans Web, sans-serif;
+    font-family: $font__main;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #fff;
+    color: $color__background-body;
   }
 }
 
@@ -20,7 +20,7 @@
     text-align: center;
     font-size: 2.1rem;
     margin-bottom: 1.5rem;
-    font-family: Novecento Sans Web, sans-serif;
+    font-family: $font__main;
     letter-spacing: 2px;
     text-transform: uppercase;
   }

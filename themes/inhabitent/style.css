@@ -745,7 +745,7 @@ object {
       flex-wrap: wrap;
   height: 354px;
   background-image: url(../../assets/images/dark-wood.png);
-  color: white;
+  color: #fff;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
@@ -769,7 +769,7 @@ object {
       .site-footer .contact-info ul a,
       .site-footer .hours ul a {
         text-decoration: none;
-        color: white; }
+        color: #fff; }
         .site-footer .contact-info ul a:hover,
         .site-footer .hours ul a:hover {
           text-decoration: underline; }
@@ -928,7 +928,7 @@ object {
         color: #000; }
         .latest-enteries ul li .black-btn:hover {
           background: #248a83;
-          color: white;
+          color: #fff;
           border: none; }
 
 .home-title {
@@ -1010,7 +1010,7 @@ object {
         font-size: 1.6rem; }
     .adventures .adventure-grid .white-btn {
       background: none;
-      border: solid 2px white;
+      border: solid 2px #fff;
       border-radius: 0;
       color: #fff;
       cursor: pointer;
@@ -1096,7 +1096,7 @@ object {
       text-transform: uppercase; }
       .single-product .content-wrapper .black-btn:hover {
         background: #008e85;
-        color: white;
+        color: #fff;
         border: none;
         -webkit-box-shadow: none;
                 box-shadow: none; }
@@ -1132,6 +1132,7 @@ object {
     text-transform: uppercase; }
 
 .site-header {
+  position: fixed;
   background-color: rgba(255, 255, 255, 0.85);
   border-bottom: 1px solid #e1e1e1;
   padding: 0.5rem 0;
@@ -1332,7 +1333,7 @@ object {
         top: 0;
         line-height: 1.25;
         text-decoration: none;
-        color: white;
+        color: #fff;
         font-family: Novecento Sans Web, sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase; }
@@ -1341,7 +1342,7 @@ object {
         .error404 .container .primary .entry-header .entry-title a,
         .date .container .primary .entry-header .entry-title a {
           text-decoration: none;
-          color: white; }
+          color: #fff; }
           .blog .container .primary .entry-header .entry-title a:hover,
           .single .container .primary .entry-header .entry-title a:hover,
           .error404 .container .primary .entry-header .entry-title a:hover,
@@ -1365,7 +1366,7 @@ object {
         .error404 .container .primary .entry-header .entry-meta a,
         .date .container .primary .entry-header .entry-meta a {
           text-decoration: none;
-          color: white; }
+          color: #fff; }
     .blog .container .primary .entry-content,
     .single .container .primary .entry-content,
     .error404 .container .primary .entry-content,
@@ -1451,7 +1452,7 @@ object {
         .error404 .container .primary .social-buttons .black-btn:hover,
         .date .container .primary .social-buttons .black-btn:hover {
           background: #008e85;
-          color: white;
+          color: #fff;
           border: none; }
     .blog .container .primary .entry-footer,
     .single .container .primary .entry-footer,
@@ -1698,7 +1699,7 @@ object {
       text-transform: uppercase; }
       .side-by-side .container .primary .black-btn:hover {
         background: #008e85;
-        color: white;
+        color: #fff;
         border: none;
         -webkit-box-shadow: none;
                 box-shadow: none; }

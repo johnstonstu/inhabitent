@@ -17,14 +17,14 @@
         font-size: 2.5rem;
         color: #e58d48;
         clear: both;
-        font-family: Novecento Sans Web, sans-serif;
+        font-family: $font__main;
         letter-spacing: 2px;
         text-transform: uppercase;
         margin-top: 0;
       }
     }
     .product-price {
-      font-family: Novecento Sans Web, sans-serif;
+      font-family: $font__main;
       font-size: 28.8px;
       font-size: 1.6rem;
       margin-top: 0;
@@ -38,7 +38,7 @@
       border: 1px solid #000;
       color: #000;
       cursor: pointer;
-      font-family: Novecento Sans Web, sans-serif;
+      font-family: $font__main;
       font-size: 14.4px;
       font-size: 0.9rem;
       line-height: 1;
@@ -47,7 +47,7 @@
       text-transform: uppercase;
       &:hover {
         background: #008e85;
-        color: white;
+        color: $color__background-body;
         border: none;
         box-shadow: none;
       }

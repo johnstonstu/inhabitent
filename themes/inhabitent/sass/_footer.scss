@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   height: 354px;
   background-image: url(../../assets/images/dark-wood.png);
-  color: white;
+  color: $color__background-body;
   justify-content: space-between;
   .site-info {
     padding-top: 2rem;
@@ -28,7 +28,7 @@
       margin-left: 0;
       a {
         text-decoration: none;
-        color: white;
+        color: $color__background-body;
         &:hover {
           text-decoration: underline;
         }

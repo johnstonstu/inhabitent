@@ -38,12 +38,12 @@
         width: 70px;
       }
       .btn {
-        background: #248a83;
+        background: $color_green;
         border: none;
         border-radius: 0;
-        color: #fff;
+        color: $color__background-body;
         cursor: pointer;
-        font-family: Novecento Sans Web, sans-serif;
+        font-family: $font__main;
         font-size: 14.4px;
         font-size: 0.9rem;
         line-height: 1;
@@ -98,10 +98,10 @@
           .entry-title {
             font-size: 1.3rem;
             margin-bottom: 2.75rem;
-            font-family: Novecento Sans Web, sans-serif;
+            font-family: $font__main;
             text-transform: uppercase;
             a {
-              color: #248a83;
+              color: $color_green;
               text-decoration: none;
               &:hover {
                 color: black;
@@ -113,9 +113,9 @@
       .black-btn {
         border: none;
         border-radius: 0;
-        color: #fff;
+        color: $color__background-body;
         cursor: pointer;
-        font-family: Novecento Sans Web, sans-serif;
+        font-family: $font__main;
         font-size: 14.4px;
         font-size: 0.9rem;
         line-height: 1;
@@ -129,8 +129,8 @@
         border: 1px solid #000;
         color: #000;
         &:hover {
-          background: #248a83;
-          color: white;
+          background: $color_green;
+          color: $color__background-body;
           border: none;
         }
       }
@@ -144,7 +144,7 @@
   font-size: 2.4rem;
   font-weight: 400;
   margin-bottom: 3.75rem;
-  font-family: Novecento Sans Web, sans-serif;
+  font-family: $font__main;
   letter-spacing: 2px;
 }
 
@@ -164,7 +164,7 @@
       margin-left: 1.5rem;
       a {
         text-decoration: none;
-        color: #fff;
+        color: $color__background-body;
         text-align: left;
         font-family: 'Merriweather', serif;
         font-weight: 400;
@@ -235,11 +235,11 @@
     }
     .white-btn {
       background: none;
-      border: solid 2px white;
+      border: solid 2px $color__background-body;
       border-radius: 0;
-      color: #fff;
+      color: $color__background-body;
       cursor: pointer;
-      font-family: Novecento Sans Web, sans-serif;
+      font-family: $font__main;
       font-size: 14.4px;
       font-size: 0.9rem;
       line-height: 1;
@@ -263,12 +263,12 @@
   margin-bottom: 67px;
   .btn {
     font-size: 1.2rem !important; //sorry
-    background: #248a83;
+    background: $color_green;
     border: none;
     border-radius: 0;
-    color: #fff;
+    color: $color__background-body;
     cursor: pointer;
-    font-family: Novecento Sans Web, sans-serif;
+    font-family: $font__main;
     font-size: 14.4px;
     font-size: 0.9rem;
     line-height: 1;

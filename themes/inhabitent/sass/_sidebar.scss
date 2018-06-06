@@ -24,8 +24,8 @@
           width: 760.59px;
         }
         .entry-title {
-          background-color: #248a83;
-          color: #fff;
+          background-color: $color_green;
+          color: $color__background-body;
           font-size: 33.6px;
           font-size: 2.1rem;
           left: 0;
@@ -37,31 +37,31 @@
           top: 0;
           line-height: 1.25;
           text-decoration: none;
-          color: white;
-          font-family: Novecento Sans Web, sans-serif;
+          color: $color__background-body;
+          font-family: $font__main;
           letter-spacing: 2px;
           text-transform: uppercase;
           a {
             text-decoration: none;
-            color: white;
+            color: $color__background-body;
             &:hover {
               color: #f2e5d0;
             }
           }
         }
         .entry-meta {
-          background-color: #248a83;
+          background-color: $color_green;
           bottom: 0;
-          color: #fff;
+          color: $color__background-body;
           display: inline-block;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           padding: 1.00005rem 1.5rem;
           position: absolute;
           right: 0;
           text-transform: uppercase;
           a {
             text-decoration: none;
-            color: white;
+            color: $color__background-body;
           }
         }
       }
@@ -74,7 +74,7 @@
           border: 1px solid #000;
           color: #000;
           cursor: pointer;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           font-size: 14.4px;
           font-size: 0.9rem;
           line-height: 1;
@@ -122,7 +122,7 @@
           border: 1px solid #000;
           color: #000;
           cursor: pointer;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           font-size: 14.4px;
           font-size: 0.9rem;
           line-height: 1;
@@ -131,13 +131,13 @@
           text-transform: uppercase;
           &:hover {
             background: #008e85;
-            color: white;
+            color: $color__background-body;
             border: none;
           }
         }
       }
       .entry-footer {
-        font-family: Novecento Sans Web, sans-serif;
+        font-family: $font__main;
         text-transform: uppercase;
         a {
           text-decoration: none;
@@ -186,9 +186,9 @@
           }
         }
         .comments-title {
-          color: #2f1339;
+          color: $color_purple;
           font-size: 2.1rem;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           letter-spacing: 2px;
           text-transform: uppercase;
           margin-top: 4rem;
@@ -229,26 +229,26 @@
           line-height: 1.25;
           margin-top: 1.5rem;
           clear: both;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           letter-spacing: 2px;
           text-transform: uppercase;
         }
         label {
-          color: #2f1339;
+          color: $color_purple;
           display: block;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           font-size: 17.6px;
           font-size: 1.1rem;
           margin-bottom: 0.5rem;
           text-transform: uppercase;
         }
         .submit {
-          background: #248a83;
+          background: $color_green;
           border: none;
           border-radius: 0;
-          color: #fff;
+          color: $color__background-body;
           cursor: pointer;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           font-size: 14.4px;
           font-size: 0.9rem;
           line-height: 1;
@@ -300,13 +300,13 @@
         a {
           text-decoration: none;
           color: #008e85;
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           letter-spacing: 2px;
           text-transform: uppercase;
           font-size: 2.1rem;
           margin-bottom: 1.5rem;
           &:hover {
-            color: #2f1339;
+            color: $color_purple;
           }
         }
       }
@@ -316,7 +316,7 @@
         border: 1px solid #000;
         color: #000;
         cursor: pointer;
-        font-family: Novecento Sans Web, sans-serif;
+        font-family: $font__main;
         font-size: 14.4px;
         font-size: 0.9rem;
         line-height: 1;
@@ -325,7 +325,7 @@
         text-transform: uppercase;
         &:hover {
           background: #008e85;
-          color: white;
+          color: $color__background-body;
           border: none;
           box-shadow: none;
         }
@@ -353,14 +353,14 @@
           text-decoration: none;
           color: #008e85;
           &:hover {
-            color: #2f1339;
+            color: $color_purple;
           }
         }
       }
       h2 {
         font-size: 1.5rem;
-        color: #2f1339;
-        font-family: Novecento Sans Web, sans-serif;
+        color: $color_purple;
+        font-family: $font__main;
         letter-spacing: 2px;
         text-transform: uppercase;
       }
@@ -376,7 +376,7 @@
     h1 {
       color: #404040;
       line-height: 1.75;
-      font-family: Novecento Sans Web, sans-serif;
+      font-family: $font__main;
       letter-spacing: 2px;
       text-transform: uppercase;
       font-size: 2em;
@@ -385,8 +385,8 @@
     h2 {
       font-size: 2.1rem;
       margin-bottom: 1.5rem;
-      color: #2f1339;
-      font-family: Novecento Sans Web, sans-serif;
+      color: $color_purple;
+      font-family: $font__main;
       text-transform: uppercase;
       letter-spacing: 2px;
     }
@@ -396,9 +396,9 @@
       }
       margin-bottom: 5rem;
       text-transform: uppercase;
-      color: #2f1339;
+      color: $color_purple;
       display: block;
-      font-family: Novecento Sans Web, sans-serif;
+      font-family: $font__main;
       font-size: 17.6px;
       font-size: 1.1rem;
       margin-bottom: 6rem;
@@ -408,12 +408,12 @@
         border-radius: 0;
       }
       .wpcf7-submit {
-        background: #248a83;
+        background: $color_green;
         border: none;
         border-radius: 0;
-        color: #fff;
+        color: $color__background-body;
         cursor: pointer;
-        font-family: Novecento Sans Web, sans-serif;
+        font-family: $font__main;
         font-size: 14.4px;
         font-size: 0.9rem;
         line-height: 1;
@@ -433,7 +433,7 @@
   .primary {
     padding-bottom: 4rem;
     .entry-meta {
-      font-family: Novecento Sans Web, sans-serif;
+      font-family: $font__main;
       text-transform: uppercase;
       font-size: 1rem;
       line-height: 1.75;
@@ -465,7 +465,7 @@
       h2 {
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
-        font-family: Novecento Sans Web, sans-serif;
+        font-family: $font__main;
         letter-spacing: 2px;
         text-transform: uppercase;
       }
@@ -481,7 +481,7 @@
         padding: 0;
         border-bottom: 1px solid #c8c8c8;
         .page-title {
-          font-family: Novecento Sans Web, sans-serif;
+          font-family: $font__main;
           letter-spacing: 2px;
           text-transform: uppercase;
           color: #404040;
