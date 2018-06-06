@@ -10,14 +10,5 @@
       $searchField.toggleClass('search-focus');
       $searchField.val('');
     });
-    // on enter search
-    $(document).keypress(function(key) {
-      if ($searchField.val().length > 0) {
-        if (key.which == 13) {
-          $('.search-form').submit();
-          return false;
-        }
-      }
-    });
   });
 })(jQuery);

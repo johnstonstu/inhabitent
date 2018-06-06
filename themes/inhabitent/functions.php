@@ -112,3 +112,11 @@ function inhabitent_remove_submenus() {
     remove_submenu_page( 'plugins.php', 'plugin-editor.php' );
 }
 add_action( 'admin_menu', 'inhabitent_remove_submenus', 110 );
+
+
+add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
+function enqueue_font_awesome() {
+
+	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
+
+}
