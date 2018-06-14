@@ -75,3 +75,18 @@
 .light-logo {
   display: none;
 }
+
+.site-content {
+  padding-top: 3.5rem;
+}
+
+.home,
+.page-template-about {
+  .site-header {
+    background: none;
+    border: none;
+  }
+  .site-content {
+    padding-top: 0;
+  }
+}

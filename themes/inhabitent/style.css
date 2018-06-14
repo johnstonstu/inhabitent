@@ -1200,6 +1200,18 @@ object {
 .light-logo {
   display: none; }
 
+.site-content {
+  padding-top: 3.5rem; }
+
+.home .site-header,
+.page-template-about .site-header {
+  background: none;
+  border: none; }
+
+.home .site-content,
+.page-template-about .site-content {
+  padding-top: 0; }
+
 .page-header {
   text-align: center;
   font-family: Novecento Sans Web, sans-serif;
