@@ -20,7 +20,7 @@ By: Stuart Johnston
 - Custom post type / catagory / taxonomy / login page / page templates
 - Edit WP admin dashboard
 
-### Major Obsticles
+### Major Obstacles
 
 - Scale and timeframe of project
 - Looping through post types / custom taxonomy
